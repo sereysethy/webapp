@@ -1,5 +1,6 @@
 An incomplete web server to showcase socket connection in C. It is by no means
-a web server. It is just an example.
+a web server. It is just an example. The program only accepts numeric route
+`/1, /2, /..`, any other than that it will reply `404 Not Found`.
 
 To compile, type
 
