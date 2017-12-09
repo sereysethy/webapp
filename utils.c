@@ -28,7 +28,7 @@ char * months[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", \
 
 /*
  * This function return current date time in GMT as following format
- * Wed, 09 Dec 2017 00:00:00 GTM
+ * Wed, 09 Dec 2017 00:00:00 GMT
  * @return a pointer to a string containing date in GMT
  */
 char * get_date() {
