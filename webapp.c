@@ -109,9 +109,7 @@ char * get_payload(int *n, int page) {
 
   str = (char *) malloc(MAX_BUF);
   tmp = str;
-  length = sprintf(tmp, "<html><body><h1>Mon dictionnaire</h1><p>C'est la page\
-                   %d</p><a href=\"%d\">suivant</a></body></html>", \
-                   page, page + 1);
+  length = sprintf(tmp, "<html><body><h1>Mon dictionnaire</h1><p>C'est la page %d</p><a href=\"%d\">suivant</a></body></html>", page, page + 1);
   tmp = tmp + length;
   *tmp = 0; // null terminated string
   *n = strlen(str);
