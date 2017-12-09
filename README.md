@@ -5,6 +5,8 @@ a web server. It is just an example. The program only accepts numeric route
 More info on HTTP response and request protocol:
 - https://tools.ietf.org/html/rfc7230#section-2.1
 - https://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Session
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Connection_management_in_HTTP_1.x
 
 To compile, type
 
